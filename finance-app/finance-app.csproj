@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PFM.Application\PFM.Application.csproj" />
+    <ProjectReference Include="..\PFM.Domain\PFM.Domain.csproj" />
+    <ProjectReference Include="..\PFM.Infrastructure\PFM.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
